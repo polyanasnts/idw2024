@@ -41,13 +41,13 @@
   
     <hr>
     <h2 id="apre"> Apresentação &#x1F638  </h2> 
-    <p> Olá, meu nome é <spam id="nome"> Polyana </spam>, tenho 17 anos e sou aluna do curso <spam class="tec"> Técnico em Redes de Computadores </spam> no <spam id="ifce"> IFCE - Campus Tauá </spam>. Estou no terceiro ano do curso e meu objetivo é terminar o ensino médio com uma boa formação e seguir na carreira dos meus sonhos. </p> <hr>
+    <p> Olá, meu nome é <span id="nome"> Polyana </span>, tenho 17 anos e sou aluna do curso <span class="tec"> Técnico em Redes de Computadores </span> no <span id="ifce"> IFCE - Campus Tauá </span>. Estou no terceiro ano do curso e meu objetivo é terminar o ensino médio com uma boa formação e seguir na carreira dos meus sonhos. </p> <hr>
 
     <h2 id="dis"> Disciplinas &#x1F4DA </h2>
     <p> No momento estou cursando as seguintes disciplinas técnicas: </p>
 
     <ul>
-      <li> <spam id="idw"> Introdução ao Desenvolvimento Web (IDW). </spam> </li>
+      <li> <span id="idw"> Introdução ao Desenvolvimento Web (IDW). </span> </li>
       <li> Redes sem Fio. </li>
       <li> Banco de Dados. </li>
       <li> Gerência e Segurança de Redes de Computadores. </li> 
@@ -59,9 +59,9 @@
 
     <ol>
       <li> Introdução à Internet e Web. </li>
-      <li> <spam class="tec"> HyperText Markup Language </spam> (HTML). </li>
-      <li> <spam class="tec"> Cascadin Style Sheet. </spam> (CSS). </li>
-      <li> <spam class="tec">  Frameworks front-end. </spam> </li>
+      <li> <span class="tec"> HyperText Markup Language </span> (HTML). </li>
+      <li> <span class="tec"> Cascadin Style Sheet. </span> (CSS). </li>
+      <li> <span class="tec">  Frameworks front-end. </span> </li>
     </ol>
     <hr>
 
