@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <style>
+ body {
+  background-color: #262626;
+  color: #fff;
+}
+
+mark {
+  border-radius: 5px;
+}
+
+code {
+  background-color: #20B2AA;
+  border-radius:5px;
+}
+
+a {
+  color: #00FFFF;
+}
+
+#nome {
+  font-weight: bold;
+}
+
+#ifce {
+  font-weight: bold;
+}
+
+#ita {
+  font-style: italic;
+}
+ </style>
+</head>
+<body>
+<h1>Evelyn Barros</h1>
+  <p>&#x1F310;
+  <strong>Menu de Navegação:</strong>
+  <a href="#ap">Apresentação</a>|
+  <a href="#dis">Disciplinas</a>|
+  <a href="#con">Conteúdo Planejado</a>|
+  <a href="#apr">O Que Foi Aprendido</a>|
+  <a href="#links">Links Úteis</a>
+    <hr>
+  </p>
+  
+  <p>
+  <h2 id="ap">Apresentação &#x1F917; </h2> 
+  Olá, meu nome é <span id="nome">Evelyn Barros</span>, tenho 16 anos e sou aluna do curso <span id="ita">Técnico Integrado em Redes de Computadores</span> no <span id="ifce">IFCE - <em>Campus</em> Tauá.</span> Estou no terceiro ano do Curso e meu objetivo é adquirir mais conhecimento, experiências e ter o aproveitamento máximo do meu último ano.
+  </p>
+
+<hr>
+
+<p>
+  <h2 id="dis">Disciplinas &#x1F4DA;</h2>
+No momento estou cursando as seguintes disciplinas técnicas:
+
+<ul>
+  <li><mark>Introdução à Internet e Web</mark></li>
+  <li>Redes sem fios</li>
+  <li>Banco de Dados</li>
+  <li>Gerência e Segurança de Redes</li>
+</ul>
+</p>
+
+<hr>
+
+<p>
+  <h2 id="con"> Conteúdo Planejado para IDW &#x1F3AF;</h2>
+Essa é a sequência de conteúdos que vamos estudar em IDW:
+
+<ol>
+  <li>Introdução à Internet e Web</li>
+  <li><em>Hyper Text Markup Language</em> (HTML)</li>
+  <li><em>Cascading Style Sheets</em> (CSS)</li>
+  <li><em>Frameworks front-end</em></li>
+</ol>
+</p>
+
+<hr> 
+
+<p>
+  <h2 id="apr">O Que Aprendemos Até Aqui em IDW &#x2705; </h2>
+Na disciplina de Introdução ao Desenvolvimento Web estudamos as tecnologias Web básicas relacionadas ao desenvolvimento de interfaces de sites e sistemas Web. Até aqui estudamos os seguintes conceitos de HTML:
+
+<ul>
+  <li>O que é HTML?</li>
+  <li>Estrutura básica de um documento HTML</li>
+  <ul>
+    <li title = "descreve o cabeçalho, com metadados, do documento HTML (cabeça)">tag <code> &lt;head&gt; </code></li>
+    <li title = "descreve a parte visível/estrutural da página (corpo)">tag <code> &lt;body&gt; </code></li>
+    <li title = "indica o tipo de documento">declaração<code> &lt;!DOCTYPE html&gt; </code></li>
+    <li title = "define o documento Web">atributo lang na tag <code> &lt;html&gt; </code></li>
+  </ul>
+  <li>Tags Básicas</li>
+  <ul>
+    <li>tags de título:</li>
+    <ul>
+    <li title = "define o nível de importancia do título"><code>&lt;h1&gt; a &lt;h6&gt;</code></li>
+  </ul>
+    <li>tags de ênfase e destaque:</li>
+      <ul> 
+        <li title = "define um texto importante"><code> &lt;strong&gt; </code></li>
+        <li title = "define um texto enfatizado"><code> &lt;em&gt; </code></li>  
+        <li title = "define um texto inserido"><code> &lt;ins&gt; </code></li>
+        <li title = "define um texto excluído"><code> &lt;del&gt; </code></li> 
+        <li title = "define um texto posicionado acima da linha normal"><code> &lt;sup&gt; </code></li>
+        <li title = "define um texto posicionado abaixo da linha normal"><code> &lt;sub&gt; </code></li>
+        <li title = "define um texto de tamanho menor"><code> &lt;small&gt; </code></li> 
+        <li title = " define um texto destacado"><code> &lt;mark&gt; </code></li>
+  </ul>
+    
+  
+    <li>tag do parágrafo: </li>
+    <ul>
+      <li title = "define um parágrafo textual, com espaçamentos e recuos"><code>&lt;p&gt;</code> </li>
+    </ul> 
+    <li>tags de link:</li>
+      <ul>
+     <li  title = "define um link, que pode levar o usuário para outra página ou para outra parte da mesma página"> <code>&lt;a&gt;</code> </li>
+     <li title = "indica de que forma o link deve ser aberto"> <code>o atributo &lt;target&gt;</code></li>
+     <li title = "faz com que o link seja aberto em outra aba"> <code>o valor &lt;_blank&gt;</code></li>
+     <li title = "faz com que o link seja aberto na mesma aba"> <code>o valor &lt;_self&gt;</code></li>  
+  </ul>
+    <li>tags básicas sem fechamento:</li>
+      <ul> 
+        <li title = "insere uma quebra de linha no texto"><code>&lt;br&gt; </code></li>
+        <li title = "insere uma linha de separação horizontal na página"><code>&lt;hr&gt; </code></li>
+     </ul>
+    <li>tags de formatação textual simples:</li>
+    <ul>
+      <li title = "deixa um texto em negrito "> <code> &lt;b&gt;  </code> </li>
+      <li title = "deixa um texto em estilo itálico"> <code> &lt;i&gt; </code> </li>
+      <li title = "aplica um sublinhado no texto "> <code> &lt;u&gt; </code> </li>
+      <li title = "aplica uma linha riscada no texto"> <code> &lt;s&gt; </code> </li>
+    </ul>
+    <li>tags de listas: </li>
+    <ul>
+      <li title = "define uma lista não ordenada, que não importa a ordem"> <code> &lt;ul&gt; </code> </li>
+      <li title = "define uma lista não ordenada, que importa a ordem"> <code> &lt;ol&gt; </code> </li>
+      <li title = "é uma lista especial, onde a ideia é ter um conjunto de termos"> <code> &lt;dl&gt; </code> </li>
+    </ul>
+    <li>tópicos extras:</li>
+    <ul>
+      <li title = "define um trecho de código de computador"> tag  <code>&lt;code&gt;</code></li>
+      <li title = "define um texto informativo relacionado ao elemento a que pertence">atributo <code>&lt;title&gt;</code> </li>
+      <li>símbolos especiais e emojis</li>
+    </ul>
+  </ul>
+</ul>
+</p>
+
+<hr> 
+
+<p>
+  <h2 id="links">Links Úteis &#x1F517;</h2>
+<ul> 
+  <li><a href="https://github.com/lucas-lfm/idw-redes-base" target="_blank"> GitHub da Disciplina</a></li>
+  <li><a href="https://codepen.io/" target="_blank"> CodePen</a></li>
+  <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
+</ul>
+</p>
+</body>
+</html>
