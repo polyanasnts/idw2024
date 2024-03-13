@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> atv2 </title>
+    <style>
+        #nome {
+          font-weight: bold;
+        }
+        #ifce {
+          font-weight: bold;
+        }
+        .tec {
+          font-style: italic;
+        }
+        #idw {
+          background-color: #FFC0CB;
+          border-radius:5px;
+        }
+        .fundo {
+          background-color: #ffb0cb;
+          border-radius:5px;
+        }
+      a {
+          color: #f5a6db;
+        }
+
+  </style>
+   
+  </head>
+  <body>
+    <h1> POLYANA SANTOS </h1>
+    &#x1F310 <strong> Menu de Navegação: </strong> 
+      <a href="#apre"> Apresentação </a> |
+      <a href="#dis"> Disciplinas </a> |
+      <a href="#idwplan"> Conteúdo Planejado  </a> |
+      <a href="#idwlearn"> O Que Foi Aprendido  </a> |
+      <a href="#links"> Links Úteis  </a> 
+  
+    <hr>
+    <h2 id="apre"> Apresentação &#x1F638  </h2> 
+    <p> Olá, meu nome é <spam id="nome"> Polyana </spam>, tenho 17 anos e sou aluna do curso <spam class="tec"> Técnico em Redes de Computadores </spam> no <spam id="ifce"> IFCE - Campus Tauá </spam>. Estou no terceiro ano do curso e meu objetivo é terminar o ensino médio com uma boa formação e seguir na carreira dos meus sonhos. </p> <hr>
+
+    <h2 id="dis"> Disciplinas &#x1F4DA </h2>
+    <p> No momento estou cursando as seguintes disciplinas técnicas: </p>
+
+    <ul>
+      <li> <spam id="idw"> Introdução ao Desenvolvimento Web (IDW). </spam> </li>
+      <li> Redes sem Fio. </li>
+      <li> Banco de Dados. </li>
+      <li> Gerência e Segurança de Redes de Computadores. </li> 
+    </ul>
+    <hr>
+
+    <h2 id="idwplan"> Conteúdo Planejado para IDW &#x1F4D1 </h2>
+    <p> Essa é a sequência de conteúdos que vamos estudar em IDW: </p>
+
+    <ol>
+      <li> Introdução à Internet e Web. </li>
+      <li> <spam class="tec"> HyperText Markup Language </spam> (HTML). </li>
+      <li> <spam class="tec"> Cascadin Style Sheet. </spam> (CSS). </li>
+      <li> <spam class="tec">  Frameworks front-end. </spam> </li>
+    </ol>
+    <hr>
+
+    <h2 id="idwlearn"> O Que Aprendemos Até Aqui em IDW &#x1F4CC </h2>
+      <p> Na disciplina de Introdução ao Desenvolvimento Web estudamos as tecnologias Web básicas relacionadas ao desenvolvimento e interfaces de sites e sistemas Web. Até aqui estudamos os seguintes conceitos de HTML: </p>
+
+    <ul>
+      <li> O que é HTML? </li>
+      <li> Estrutura básica de um documento HTML </li>
+    
+      <ul> 
+        <li title="A cabeça do documento HTML"> tag <code class="fundo">&lt;head&gt;</code> </li>  
+        <li title="O corpo do documento HTML"> tag <code class="fundo"> &lt;body&gt; </code> </li>
+        <li title="Indica o tipo de documento"> declaração <code class="fundo"> &lt;!DOCTYPE html&gt; </code> </li> 
+        <li> atributo lang na tag <code class="fundo"> &lt;html&gt; </code> </li>
+      </ul>
+
+       <li> Personalização:</li>
+       <ul>
+        <li> tags títulos <code class="fundo"> &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; ... </code> </li>
+        <li title="Define um parágrafo textual, com espaçamentos e recuos"> tag <code class="fundo"> &lt;p&gt; </code> </li>
+        <li title="Insere uma quebra de linha no texto"> tag <code class="fundo"> &lt;br&gt; </code> </li>
+        <li title="Insere uma linha de separação horizontal na página"> tag <code class="fundo"> &lt;hr&gt; </code> </li>
+        <li title="Define um texto importante"> tag <code class="fundo"> &lt;strong&gt; </code> </li>
+        <li title="Define um texto enfatizado"> tag <code class="fundo"> &lt;em&gt; </code> </li>
+        <li title="Define um texto inserido"> tag <code class="fundo"> &lt;ins&gt; </code> </li>
+        <li title="Define um texto excluído"> tag <code class="fundo"> &lt;del&gt; </code> </li>
+        <li title="Define um texto sobrescrito"> tag <code class="fundo"> &lt;sup&gt; </code> </li>
+        <li title="Define um texto subscrito"> tag <code class="fundo"> &lt;sub&gt; </code> </li>
+        <li title="Define um texto de tamanho menor"> tag <code class="fundo"> &lt;small&gt; </code> </li>
+        <li title="Define um texto destacado"> tag <code class="fundo"> &lt;mark&gt; </code> </li>
+        <li title="Define um texto em negrito"> tag <code class="fundo"> &lt;b&gt; </code> </li>
+        <li title="Define um texto em itálico"> tag <code class="fundo"> &lt;i&gt; </code> </li>
+        <li title="Define um texto em sublinhado"> tag <code class="fundo"> &lt;u&gt; </code> </li>
+        <li title="Define um texto riscado"> tag <code class="fundo"> &lt;s&gt; </code> </li>
+        <li title="Elemento de uma lista"> tag <code class="fundo"> &lt;li&gt; </code> </li>
+        <li title="Define uma lista não ordenada"> tag <code class="fundo"> &lt;ul&gt; </code> </li>
+        <li title="Define uma lista ordenada"> tag <code class="fundo"> &lt;ol&gt; </code> </li>
+        <li title="Define uma lista de definição"> tag <code class="fundo"> &lt;dl&gt; </code> </li>
+        <li title="Definir um trecho de código de computador"> tag <code class="fundo"> &lt;code&gt; </code> </li>
+        <li> Emojis </li> 
+       </ul>
+       <li> Extras </li>
+          <ul>
+            <li title="Texto informativo relacionado ao elemento"> title </li>
+            <li> links </li>
+             <li title="Indica a forma que o link deve ser aberto"> tag <code class="fundo"> &lt;target&gt; </code> </li>
+             <li title="Indica que o link deve ser aberto em outra aba"> tag <code class="fundo"> &lt;blank&gt; </code> </li>
+             <li title="Indica que o link deve ser aberto na mesma aba"> tag <code class="fundo"> &lt;self&gt; </code> </li>
+          </ul>
+    </ul>
+<hr>
+          <h2 id="links"> Links Úteis &#x1F4CE </h2>
+          <ul>
+          <li> <p><a href="https://github.com/lucas-lfm/idw-redes-base" target="_blank"> github.com/lucas-lfm/idw-redes-base </a> </p> </li>
+           <li> <p> <a href="https://codepen.io/" target="_blank"> codepen.io </a> </p> </li>
+           <li> <p> <a href="https://www.w3schools.com/" target="_blank"> w3schools </a> </p> </li>
+           <li> <p><a href="https://developer.mozilla.org/pt-BR/" target="_blank"> developer.mozilla  </a> </p> </li>
+           <li> <p><a href="https://emojipedia.org/" target="_blank"> emojipedia  </a> </p> </li>
+          </ul>
+
+
+
+
+
+  </body>
+  </html>
